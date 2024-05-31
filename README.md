@@ -77,11 +77,6 @@ Account: RoyLMattox | Mentions: 0
 TwitterStockMentionScraper/
 │
 ├── README.md
+├── .gitignore
 ├── requirements.txt
-├── main.py
-├── scraper.py
-├── config.py
-├── tests/
-│   └── test_scraper.py
-└── video/
-    └── demo_video.mp4
+└── scraper.py
