@@ -94,10 +94,3 @@ If you wish to contribute to this project, please fork the repository and submit
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-Feel free to customize and expand the `README.md` file as needed. Make sure to update the GitHub repository link and other specific details according to your project.
-=======
-
->>>>>>> 333cd37b7fa5e0b3f9efc197c6cea6678d374070
