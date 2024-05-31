@@ -85,12 +85,3 @@ TwitterStockMentionScraper/
 │   └── test_scraper.py
 └── video/
     └── demo_video.mp4
-```
-
-## Contributing
-
-If you wish to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License.
