@@ -32,8 +32,8 @@ This tool is designed for Geek Labs' Backend Developer internship task. It scrap
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/TwitterStockMentionScraper.git
-    cd TwitterStockMentionScraper
+    git clone https://github.com/hassanarafa/TwitterProject.git
+    cd TwitterProject
     ```
 
 2. Install the required libraries:
