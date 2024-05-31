@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Twitter Stock Mention Scraper
 
 This project is a Python tool that scrapes Twitter accounts for mentions of stock symbols, without using the Twitter API. The tool takes a list of Twitter accounts, a stock ticker symbol, and a time interval as input, and outputs the number of times the stock symbol was mentioned within that interval.
@@ -80,3 +81,6 @@ If you wish to contribute to this project, please fork the repository and submit
 
 License
 This project is licensed under the MIT License.
+=======
+
+>>>>>>> d038977569016d6acc6497ff938f5f648a2eaed7
