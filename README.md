@@ -1,53 +1,60 @@
-<<<<<<< HEAD
-Twitter Stock Mention Scraper
+# Twitter Stock Mention Scraper
 
 This project is a Python tool that scrapes Twitter accounts for mentions of stock symbols, without using the Twitter API. The tool takes a list of Twitter accounts, a stock ticker symbol, and a time interval as input, and outputs the number of times the stock symbol was mentioned within that interval.
 
-Table of Contents
-Introduction
-Features
-Requirements
-Installation
-Usage
-Example Output
-Project Structure
-Contributing
-License
-Introduction
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Example Output](#example-output)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
 This tool is designed for Geek Labs' Backend Developer internship task. It scrapes Twitter accounts for stock symbol mentions and displays the count at specified intervals.
 
-Features
-Scrapes a list of Twitter accounts for stock symbol mentions.
-Counts and displays the number of mentions at specified intervals.
-Uses BeautifulSoup for HTML parsing.
-Does not use the Twitter API.
-Requirements
-Python 3.x
-requests library
-beautifulsoup4 library
-schedule library
-Installation
-Clone the repository:
+## Features
+- Scrapes a list of Twitter accounts for stock symbol mentions.
+- Counts and displays the number of mentions at specified intervals.
+- Uses BeautifulSoup for HTML parsing.
+- Does not use the Twitter API.
 
-bash
-Copy code
-git clone https://github.com/yourusername/TwitterStockMentionScraper.git
-cd TwitterStockMentionScraper
-Install the required libraries:
+## Requirements
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Open a terminal and navigate to the project directory.
-Run the script:
-bash
-Copy code
-python main.py
-Enter the stock symbol to look for (e.g., TSLA) and the time interval (in minutes) for scraping sessions when prompted.
-Example Output
-yaml
-Copy code
+- Python 3.x
+- `requests` library
+- `beautifulsoup4` library
+- `schedule` library
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/TwitterStockMentionScraper.git
+    cd TwitterStockMentionScraper
+    ```
+
+2. Install the required libraries:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Open a terminal and navigate to the project directory.
+2. Run the script:
+    ```bash
+    python main.py
+    ```
+3. Enter the stock symbol to look for (e.g., TSLA) and the time interval (in minutes) for scraping sessions when prompted.
+
+## Example Output
+
+```
 Enter the stock symbol to look for (e.g., TSLA): TSLA
 Enter the time interval (in minutes) for another scraping session: 15
 Scraping for stock symbol 'TSLA' every 15 minutes.
@@ -62,9 +69,11 @@ Account: CordovaTrades | Mentions: 0
 Account: Barchart | Mentions: 5
 Account: RoyLMattox | Mentions: 0
 'TSLA' was mentioned '15' times in the last '15' minutes.
-Project Structure
-css
-Copy code
+```
+
+## Project Structure
+
+```
 TwitterStockMentionScraper/
 │
 ├── README.md
@@ -76,11 +85,16 @@ TwitterStockMentionScraper/
 │   └── test_scraper.py
 └── video/
     └── demo_video.mp4
-Contributing
+```
+
+## Contributing
+
 If you wish to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-License
-This project is licensed under the MIT License.
-=======
+## License
 
->>>>>>> d038977569016d6acc6497ff938f5f648a2eaed7
+This project is licensed under the MIT License.
+
+---
+
+Feel free to customize and expand the `README.md` file as needed. Make sure to update the GitHub repository link and other specific details according to your project.
