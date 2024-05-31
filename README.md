@@ -10,8 +10,6 @@ This project is a Python tool that scrapes Twitter accounts for mentions of stoc
 - [Usage](#usage)
 - [Example Output](#example-output)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
